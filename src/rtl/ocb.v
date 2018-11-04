@@ -61,7 +61,7 @@ module ocb (
 
   localparam ADDR_CONFIG       = 8'h09;
   localparam CONFIG_KEYLEN_BIT = 0;
-  localparam CONFIG_ENCDEC     = 1;
+  localparam CONFIG_ENCDEC_BIT = 1;
 
   localparam ADDR_STATUS       = 8'h0a;
   localparam STATUS_READY_BIT  = 0;
